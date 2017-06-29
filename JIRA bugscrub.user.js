@@ -4,7 +4,7 @@
 // @version      0.2.13
 // @description  go go jira
 // @author       Harald Hvaal
-// @match        https://jira-eng-gpk2.*.com/jira/*
+// @match        https://jira-eng-gpk2.cisco.com/jira/*
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
 // @grant       GM_getValue
 // @grant       GM_setValue
