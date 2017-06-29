@@ -52,7 +52,7 @@
     var timeSpentOnCurrentBug = 0;
     var overtime = true;
     var bgHighlight = true;
-    var timePerBug = 5;
+    var timePerBug = 60;
 
     var startBtn = $('<li><a id="start_bugscrub" class="aui-button aui-button-primary aui-style "></a></li>');
     function updateStartBtnText() {
