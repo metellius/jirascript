@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JIRA bugscrub
 // @namespace    http://tampermonkey.net/
-// @version      0.3.0
+// @version      0.3.1
 // @description  go go jira
 // @author       Harald Hvaal
 // @match        https://jira-eng-gpk2.cisco.com/jira/*
