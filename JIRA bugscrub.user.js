@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         JIRA plus
+// @name         JIRA bugscrub
 // @namespace    http://tampermonkey.net/
 // @version      0.2.13
 // @description  go go jira
