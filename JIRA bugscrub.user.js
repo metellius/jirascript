@@ -165,10 +165,10 @@
     });
     $('<li><a id="time_per_bug_btn" class="aui-button aui-button-primary aui-style "></a></li>').prependTo(navbar).click(function() {
         var response = parseInt(prompt("Time per bug in seconds:", secsPerBug));
-        if (!window.isNaN(response)) {
-            secsPerBug = response;
-            GM_setValue("secsPerBug", secsPerBug);
-        }
+        if (!(response < 0) && !(response > 0) || response === 0)
+            return;
+        secsPerBug = response;
+        GM_setValue("secsPerBug", secsPerBug);
     });
 
     tick();
